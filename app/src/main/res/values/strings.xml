@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MessengerDemo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">573360392829342</string>
+    <string name="title_activity_on_reply_received">onReplyReceivedActivity</string>
+</resources>
