@@ -100,8 +100,8 @@ public class MainActivity extends Activity {
     private void onMessengerButtonClicked() {
         // The URI can reference a file://, content://, or android.resource. Here we use
         // android.resource for sample purposes.
-        if (uri == null)
-            Uri.parse("android.resource://com.dagger.messengerdemo/" + R.drawable.tree);
+        if (uri == null) // add default image to send message if user can't select any image
+            uri=Uri.parse("android.resource://com.dagger.messengerdemo/" + R.drawable.tree);
 
         // Create the parameters for what we want to send to Messenger.
         ShareToMessengerParams shareToMessengerParams =
